@@ -38,8 +38,9 @@
   ],
   "devDependencies": {
     "closure-compiler": "~0.2.1",
-    "grunt": "~0.4.1",
+    "grunt": "^0.4.2",
     "grunt-cli": "~0.1.0",
+    "lodash": "^2.4.0",
     "typescript": "^3.7.5"
   }
 }

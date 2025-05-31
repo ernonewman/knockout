@@ -1,6 +1,6 @@
 /*global module:false*/
 module.exports = function(grunt) {
-    var _ = grunt.util._;
+    var _ = require('lodash');
 
     // Project configuration
     grunt.initConfig({
