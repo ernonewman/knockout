@@ -159,7 +159,7 @@ module.exports = function(grunt) {
         var done = this.async(),
             target = this.target;
 
-        grunt.util.spawn({ cmd: "tsc", args: ["-p", this.data] },
+        grunt.util.spawn({ cmd: "tsc", args: ["-p", this.data], opts : { shell: true } },
             function (error, result, code) {
                 grunt.log.writeln(result.stdout);
 
